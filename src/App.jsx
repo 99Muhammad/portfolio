@@ -6,7 +6,7 @@ import{About} from './components/About/About';
 import {Experience}from './components/Experience/Experience';
 import { Projects } from './Projects/Projects';
 import { Introduction } from './components/Introduction/Introduction';
-import Skills from './components/Skills/skills';
+import Skills from "./components/Skills/Skills";
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer';
 function App() {

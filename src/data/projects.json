@@ -1,0 +1,34 @@
+[
+    {
+      "title": "Dern-Support",
+      "imageSrc": "projects/Dern-supportImage.jpg",
+      "description": "Dern-Support is a tech support system that simplifies managing customer requests and complaints. It enables users to submit maintenance requests, which are handled by technicians and administrators. The goal is to improve user experience and communication through a user-friendly platform.",
+      "skills": ["#full-stack", "#react", "#.net","#sql server"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/99Muhammad/DernSupport"
+    },
+    {
+      "title": "Knowledge Key Center",
+      "imageSrc": "projects/studycenterImage.jpg",
+      "description": "Study Center is an online learning platform designed to streamline the process of managing educational resources, courses, and student progress. It provides a centralized system for students, instructors, and administrators to interact, share materials, and track academic performance. The goal is to enhance the learning experience by offering a user-friendly and efficient platform for education management.",
+      "skills": ["#full-stack", "#react", "#.net","#sql server"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/SCMS-LTUC/SCMS-back-end/tree/development"
+    },
+    {
+      "title": "Nova Bank",
+      "imageSrc": "projects/BankImage.jpg",
+      "description": "Bank System is a comprehensive banking application designed to simplify financial transactions and account management for users. It provides a secure and user-friendly platform for customers to perform banking operations such as account management, fund transfers, and transaction history tracking. The goal is to enhance the banking experience by offering a seamless and efficient digital solution.",
+      "skills": ["#backend", "#.net","#swagger","#sql server"],
+      "demo": "https://rococo-muffin-50b08e.netlify.app/",
+      "source": "https://github.com/99Muhammad/Bank_System"
+    },
+    {
+      "title": "Melody Hub",
+      "imageSrc": "projects/MelodyImage.png",
+      "description": "Moldy Hub is a site for listening to songs easily and conveniently. It allows users to access a library of songs, with a simple user interface that makes the listening experience enjoyable. The site aims to provide an interactive platform for music lovers to enjoy their favorite music.",
+      "skills": [" #full-stack", "#react", "#node js","#postgres"],
+      "demo": "https://rococo-muffin-50b08e.netlify.app/",
+      "source": "https://github.com/project-weak"
+    }
+  ]

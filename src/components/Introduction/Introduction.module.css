@@ -1,0 +1,148 @@
+.container {
+    padding: 40px 10%;
+    background-color: var(--color-bg); /* Use your theme's background color */
+    color: var(--color-text); /* Use your theme's text color */
+    opacity: 100%;
+  }
+  
+  .title {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: left; /* Left-align the title */
+    text-transform: uppercase; /* Uppercase for the title */
+    letter-spacing: 2px; /* Add spacing between letters */
+    color: var(--color-primary); /* Use your theme's primary color (fully opaque) */
+  }
+  
+  .overview {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--color-text); /* Use your theme's text color (fully opaque) */
+    text-align: left; /* Left-align the overview */
+  }
+  
+  .description {
+    font-size: 25px;
+    line-height: 1.8; /* Increased line height for better readability */
+    margin-bottom: 20px;
+    font-family: var(--font-roboto); /* Use your theme's font */
+    text-align: left; /* Left-align the paragraph */
+    color: var(--color-text); /* Use your theme's text color (fully opaque) */
+   
+  }
+  
+  .description strong {
+    font-weight: 700; /* Bold text */
+    color: var(--color-primary); /* Use your theme's primary color for bold words (fully opaque) */
+  }
+
+  .container {
+    padding: 40px 10%;
+    background-color: var(--color-bg); /* Use your theme's background color */
+    color: var(--color-text); /* Use your theme's text color */
+    text-align: center; /* Center-align the content */
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--color-primary); /* Use your theme's primary color */
+  }
+  
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center the grid */
+  }
+  
+  .skillCard {
+    background-color:antiquewhite; /* Use your theme's card background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: black;
+  }
+  
+  .skillCard:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .skillTitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--color-primary); /* Use your theme's primary color */
+  }
+  
+  .skillRole {
+    font-size: 18px;
+    font-weight: 500;
+    color:black; /* Use your theme's text color */
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .title {
+      font-size: 28px;
+    }
+  
+    .skillTitle {
+      font-size: 20px;
+    }
+  
+    .skillRole {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .title {
+      font-size: 24px;
+    }
+  
+    .skillTitle {
+      font-size: 18px;
+    }
+  
+    .skillRole {
+      font-size: 14px;
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .title {
+      font-size: 28px;
+    }
+  
+    .overview {
+      font-size: 20px;
+    }
+  
+    .description {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .title {
+      font-size: 24px;
+    }
+  
+    .overview {
+      font-size: 18px;
+    }
+  
+    .description {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,105 @@
+@import "../../vars.css";
+
+.container {
+  color:rgb(6, 6, 72);
+  margin-top: 120px;
+  background-color:rgb(168, 156, 139);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+  transition: all 0.3s ease; /* Smooth transition for container */
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards 0.2s; /* Animation for h2 */
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards 0.4s; /* Animation for paragraph */
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards 0.6s; /* Animation for links */
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideIn 1s forwards 0.8s; /* Animation for individual links */
+
+}
+.link img{
+  width: 50px;
+  height: 50px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: var(--color-primary); /* Add hover effect on links */
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+
+  .link {
+    animation: slideIn 1s forwards 0.8s; /* Animation for links on smaller screens */
+  }
+}

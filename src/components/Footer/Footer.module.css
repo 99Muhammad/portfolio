@@ -1,0 +1,38 @@
+.footer {
+    background-color: #160f3e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 90px;
+  }
+  
+  .footer h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+  
+  .nav {
+    margin-bottom: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 25px;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    margin-top: 20px;
+    font-size: 15px;
+  }
